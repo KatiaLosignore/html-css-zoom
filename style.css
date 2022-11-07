@@ -15,30 +15,39 @@ body {
 
 header, footer {
     height: 80px;
-    background-color: lightgrey;
+    background-color: black;
 }
 
 main {
     height: calc(100vh - 160px);
     overflow-y: auto;
-    background-color: rgb(34,34,34);
-    
+    background-color: black;
 }
+    
    
-
-
 /* Utils */
 
 .navbar {
     display: flex;
     justify-content: flex-end;
+    padding: 10px;
 }
 
 
+#icon, #icon-1 {
+    background-color: rgb(74,74,74);
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+    
+    
 .container {
     max-width: 1000px;
     margin: 80px auto;
-  }
+}
+
 
 .row {
     margin-bottom: 10px;
@@ -49,12 +58,11 @@ main {
     justify-content: center;
     gap: 5px;
 }
-    
+
 
 .figure {
     position: relative;
 }
-  
 
 .pinco {
     position: absolute;
@@ -65,5 +73,9 @@ main {
     padding: 5px;
     font-size: 13px;
 }
+   
+    
+  
+
 
 
