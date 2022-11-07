@@ -1,0 +1,69 @@
+/* CSS Reset */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+
+body {
+    font-family: serif;
+    color: white;
+}
+
+header, footer {
+    height: 80px;
+    background-color: lightgrey;
+}
+
+main {
+    height: calc(100vh - 160px);
+    overflow-y: auto;
+    background-color: rgb(34,34,34);
+    
+}
+   
+
+
+/* Utils */
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: 80px auto;
+  }
+
+.row {
+    margin-bottom: 10px;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+    
+
+.figure {
+    position: relative;
+}
+  
+
+.pinco {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    color:white;
+    padding: 5px;
+    font-size: 13px;
+}
+
+
