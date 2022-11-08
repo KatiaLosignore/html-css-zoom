@@ -58,13 +58,15 @@ main {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    align-content: flex-start;
     margin-bottom: 10px;
 }
     
     
+    
 .figure img {
-    min-width: 200px;
+    flex: 0 0 200px;
+    padding: 3px;
 }  
     
 .figure {
@@ -169,11 +171,15 @@ main {
     font-size: 13px;
 }
 
-.footer-right div {
+
+.footer-right button {
+    border: 0;
     color:red;
     font-size: 16px;
     background-color: rgb(74,74,74);
     padding: 30px;
+    cursor: pointer;
 }
+    
     
 
